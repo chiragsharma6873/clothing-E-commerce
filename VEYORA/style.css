@@ -53,12 +53,14 @@
   text-decoration: none;
   font-family: Arial, sans-serif;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: bold;
   transition: 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #777;
+  color: rgba(20, 122, 20, 0.479);
+  transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-right {
@@ -165,7 +167,7 @@
 .hero-content p {
   width: 600px;
   margin: 0 0 30px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
   color: #000;
 }
@@ -184,12 +186,28 @@
 .hero-stats {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 75px;
-}
+  gap: 10px;
+} 
 
 .hero-stats div {
   padding: 0 35px;
   border-right: 1px solid #000;
+  align-items: center;
+  justify-content: center;
+  
+}
+.ri-truck-fill,.ri-verified-badge-fill,.ri-customer-service-fill{
+  color:#4f6045 ;
+}
+
+.hero-stats .subtitle{
+  font-size: small;
+  color: rgb(37, 37, 37); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-stats div:first-child {
